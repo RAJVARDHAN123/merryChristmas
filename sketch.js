@@ -37,6 +37,6 @@ function draw() {
 
 function keyPressed() {
   	if (keyCode === UP_ARROW) {
-    	Matter.Body.applyForce(santaObj.body,santaObj.body.position,{x:-800,y:-100});
+    	Matter.Body.applyForce(santaObj.body,santaObj.body.position,{x:-8,y:-7});
   	}
 }
