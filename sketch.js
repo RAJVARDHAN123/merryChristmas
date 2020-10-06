@@ -9,7 +9,7 @@ var santaObj,groundObject;
 var world;
 
 function preload(){
-	bg = loadImage("images/snow.png");
+	bg = loadImage("./images/snow.png");
 }
 
 
