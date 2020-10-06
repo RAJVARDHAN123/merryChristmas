@@ -28,7 +28,7 @@ function setup() {
 
 
 function draw() {
-  background(bg); 
+  background(255); 
 
   santaObj.display();
   groundObject.display();
