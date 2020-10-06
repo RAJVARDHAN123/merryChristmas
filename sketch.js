@@ -9,7 +9,7 @@ var santaObj,groundObject;
 var world;
 
 function preload(){
-	//load background image
+	bg = loadImage("images/snow.png");
 }
 
 
@@ -28,7 +28,7 @@ function setup() {
 
 
 function draw() {
-  background(255); 
+  background(bg); 
 
   santaObj.display();
   groundObject.display();
